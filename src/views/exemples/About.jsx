@@ -1,18 +1,12 @@
-import React from "react";
+import React from 'react'
 
-import './About.css'
+const About = props => (
 
-
-const About = props =>(
-
-<div className="About">
-   <h1> Componente Home Test</h1>
-
-   <p>O nosso sistema foi criado</p>
-</div>
-
-
+    <div className='About'>
+        <h1>Sobre</h1>
+        <p>Bem vindo</p>
+    </div>
 
 )
 
-export default About;
+export default About
