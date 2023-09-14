@@ -1,6 +1,6 @@
 import React from 'react'
-import  About  from "./../../views/examples/About";
-import  Home  from "./../../views/examples/Home";
+import  About  from "../../views/exemples/About";
+import  Home  from "../../views/exemples/Home";
 import { Routes, Route } from "react-router-dom";
  
 const Content = props => {
@@ -15,3 +15,4 @@ const Content = props => {
 };
 
 export default Content
+
